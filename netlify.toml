@@ -1,0 +1,17 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[[redirects]]
+  from = "/list"
+  to = "https://seo-test-backend.onrender.com/list"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/form"
+  to = "https://seo-test-backend.onrender.com/form"
+  status = 200
+  force = true
+
+
